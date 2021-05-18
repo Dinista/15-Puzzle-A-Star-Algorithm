@@ -50,10 +50,11 @@ This input correspond to the initial state (board):
 
 ### Selecting heuristics
 
-The selection of the heuristic is made on the line 166: 
+The selection of the heuristic is made on the line 166:
 
-      sucessor.hcost = heuristic_1(sucessor.state)
-
+```python
+sucessor.hcost = heuristic_1(sucessor.state)
+```
 Change the name <b>"heuristic_n (sucessor.state)"</b> with <b>"n"</b> being one of the following number:
 
   <b>1</b> - Out of place</br>
